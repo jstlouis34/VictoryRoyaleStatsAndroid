@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_map"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_chests"
+            android:icon="@drawable/ic_menu_chests"
+            android:title="Chest Locations" />
+        <item
+            android:id="@+id/nav_llamas"
+            android:icon="@drawable/ic_menu_map"
+            android:title="Llama Locations" />
+        <item
+            android:id="@+id/nav_youtube"
+            android:icon="@drawable/ic_menu_youtube"
+            android:title="Youtube" />
+    </group>
+
+</menu>
